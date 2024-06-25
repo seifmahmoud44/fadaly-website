@@ -13,14 +13,14 @@ import { Autoplay } from "swiper/modules";
 
 const Projects = () => {
   return (
-    <div className="h-[70vh] px-4 mt-32" id="work">
+    <div className="h-[70vh] px-4 mt-24 max-md:mt-16 " id="work">
       <h1 className="text-6xl my-5 font-black text-center text-[#204469] max-md:text-5xl">
         سابقة اعمالنا
       </h1>
       <Swiper
         breakpoints={{
           640: {
-            slidesPerView: 1,
+            slidesPerView: 2,
             spaceBetween: 20,
           },
 

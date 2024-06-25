@@ -6,6 +6,7 @@ import Us from "./components/Us";
 import Ser from "./components/Ser";
 import Projects from "./components/Projects";
 import Footer from "./components/Footer";
+import Contact from "./components/Contact";
 
 const App = () => {
   return (
@@ -29,6 +30,7 @@ const App = () => {
       <Us />
       <Ser />
       <Projects />
+      <Contact />
       <Footer />
     </div>
   );

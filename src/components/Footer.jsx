@@ -2,7 +2,7 @@ import logo from "../assets/logo.png";
 
 const Footer = () => {
   return (
-    <div className="mt-52">
+    <div className="">
       <div className="flex gap-8 py-3 px-11 bg-[#C5D1D9]">
         <div className="w-1/3">
           <img src={logo} alt="" className="w-28" />
